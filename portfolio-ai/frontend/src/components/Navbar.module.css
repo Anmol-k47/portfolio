@@ -23,18 +23,34 @@
   box-shadow: 0 1px 20px rgba(0,0,0,0.08);
 }
 
-.logo {
-  font-family: 'Fira Code', monospace;
-  font-size: 0.95rem;
-  font-weight: 500;
-  color: var(--text-primary);
+.logoContainer {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  cursor: pointer;
 }
 
-.logoBracket {
+.logoMark {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
   background: var(--a-grad);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
+  border-radius: 8px;
+  color: white;
+  font-weight: 700;
+  font-family: inherit;
+  font-size: 1.1rem;
+  box-shadow: 0 4px 14px rgba(139, 92, 246, 0.25);
+}
+
+.logoText {
+  font-family: inherit;
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: var(--text-primary);
+  letter-spacing: -0.02em;
 }
 
 .navLinks {

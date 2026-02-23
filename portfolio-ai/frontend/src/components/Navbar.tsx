@@ -23,8 +23,9 @@ const Navbar: React.FC = () => {
 
   return (
     <nav className={`${styles.nav} ${scrolled ? styles.scrolled : ''}`}>
-      <div className={styles.logo}>
-        <span className={styles.logoBracket}>&lt;AK /&gt;</span>
+      <div className={styles.logoContainer}>
+        <div className={styles.logoMark}> AK</div>
+        {/* <span className={styles.logoText}>Kashyap</span> */}
       </div>
 
       <div className={styles.navLinks}>
