@@ -24,7 +24,7 @@ const Navbar: React.FC = () => {
   return (
     <nav className={`${styles.nav} ${scrolled ? styles.scrolled : ''}`}>
       <div className={styles.logo}>
-        &lt;<span className={styles.logoBracket}>AK</span> /&gt;
+        <span className={styles.logoBracket}>&lt;AK /&gt;</span>
       </div>
 
       <div className={styles.navLinks}>
